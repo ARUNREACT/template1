@@ -6,7 +6,7 @@ export function Aboutus() {
     <div className="about-us">
       <Dashboardhead />
       <div className="col-lg-10 mx-auto mainpagehead">
-        <h1 className="pt-4">𝗔𝗕𝗢𝗨𝗧 𝗨𝗦</h1>
+        <h1 className="pt-4">𝗔𝗕𝗢𝗨𝗧 𝗨𝗦 </h1>
         <hr />
 
         <p>
