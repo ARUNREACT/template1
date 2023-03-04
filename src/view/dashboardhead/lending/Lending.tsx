@@ -15,8 +15,8 @@ export function Lending() {
       <div className="col-lg-10 mx-auto p-0 text-center mainpagehead">
         <Secondsildes
           img2={require("../../../asset/sample1/sample2.png")}
-          imgh1={`Become Eko's Partner to Get Business Loan`}
-          imgp2={`Eko provides financing options for their merchants to grow with Connect`}
+          imgh1={`Become PayPe's Partner to Get Business Loan`}
+          imgp2={`PayPe provides financing options for their merchants to grow with Connect`}
           btnclassname={"button"}
           btnvalue={`Contact Sale`}
         />

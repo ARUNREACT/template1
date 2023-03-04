@@ -31,7 +31,7 @@ export function Dashboard() {
           <Layout1
             layout1h2={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗮 𝗕𝗮𝗻𝗸𝗶𝗻𝗴 & 𝗙𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝘀𝗲𝗿𝘃𝗶𝗰𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲𝗿`}
             line={" span mb-4"}
-            layout1p1={`Eko gives you an opportunity to turn your own shop into a Banking & Financial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!`}
+            layout1p1={`PayPe gives you an opportunity to turn your own shop into a Banking & Financial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!`}
           />
         </div>
         <div className="mt-5 p-1">
@@ -144,7 +144,7 @@ export function Dashboard() {
           <Layout1
             layout1h2={`𝗘𝗸𝗼'𝘀 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
-            layout1p1={`We use the same APIs here at Eko! Every API call is secured with one-time-use tokens generated using asymmetric cryptography. Our open-source libraries make it extremely easy & error-proof`}
+            layout1p1={`We use the same APIs here at PayPe! Every API call is secured with one-time-use tokens generated using asymmetric cryptography. Our open-source libraries make it extremely easy & error-proof`}
           />
         </div>
       </div>
@@ -167,7 +167,7 @@ export function Dashboard() {
         <Firstsildes
           img1="https://d33wubrfki0l68.cloudfront.net/c34496eb3511fa6e5d7e83b32ce30b23fd104104/84610/assets/img/aadhaar-banking/aeps_hero.svg"
           imgh3={`Retailer`}
-          imgp1={`Our retailer partners use Eko's proprietary platform '𝗖𝗼𝗻𝗻𝗲𝗰𝘁' and partner services to offer cash based and assisted commerce services. This provides a great earning potential and the freedom of running their own business with minimal investment.`}
+          imgp1={`Our retailer partners use PayPe's proprietary platform '𝗖𝗼𝗻𝗻𝗲𝗰𝘁' and partner services to offer cash based and assisted commerce services. This provides a great earning potential and the freedom of running their own business with minimal investment.`}
           btnclassname={"button"}
           btnvalue={`Contact Sale`}
         />

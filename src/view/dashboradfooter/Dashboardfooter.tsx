@@ -24,7 +24,7 @@ export function Dashboardfooter() {
               className="img-fluid  mt-sm-4 "
             />
             <p className="mt-3">
-              Eko has been catering to millions of low and moderate-income
+              PayPe has been catering to millions of low and moderate-income
               Indians by providing them with a cash-in point to convert their
               cash to digital and make payments for an array of services
             </p>

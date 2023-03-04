@@ -26,7 +26,7 @@ export function Nepalmoney(props: any) {
           layout1h5={`Send money to your loved-ones`}
           layout1h2={`𝗘𝗮𝘀𝘆 𝗺𝗼𝗻𝗲𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗳𝗿𝗼𝗺 𝗜𝗻𝗱𝗶𝗮 𝘁𝗼 𝗡𝗲𝗽𝗮𝗹`}
           line={" span mb-4"}
-          layout1p1={`Eko provides the best DMT (Domestic Money Transfer) solution with the highest success rate with Eko money transfer solution you can turn your shop into a Mini Bank.`}
+          layout1p1={`PayPe provides the best DMT (Domestic Money Transfer) solution with the highest success rate with PayPe money transfer solution you can turn your shop into a Mini Bank.`}
         />
         <Secondsildes
           img2="https://d33wubrfki0l68.cloudfront.net/c494edc1b6c1b960959ef12964c1de3c37b1979b/69992/assets/img/indo-nepal/indo-nepal.svg"
@@ -67,12 +67,12 @@ export function Nepalmoney(props: any) {
           </div>
           <Images
             imgclassname={"trustimg mt-5"}
-            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/eko-trust-opt.svg"
+            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/PayPe-trust-opt.svg"
           />
           <Layout1
             layout1h2={`𝗛𝗼𝘄 𝗜𝗻𝗱𝗼-𝗡𝗲𝗽𝗮𝗹 𝗠𝗼𝗻𝗲𝘆 𝗧𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗪𝗼𝗿𝗸𝘀`}
             line={"span mb-4"}
-            layout1p1={`You can assure your customers that their money and data is safe. Eko’s trust is unparalleled`}
+            layout1p1={`You can assure your customers that their money and data is safe. PayPe’s trust is unparalleled`}
           />
         </div>
       </div>
@@ -93,7 +93,7 @@ export function Nepalmoney(props: any) {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-eko-partner-opt.svg"
+            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
             imgh4={`Ready to get started?`}
             imgh1={`Send money to Nepal & Earn More`}
             line={"span mb-3 mx-1"}

@@ -63,12 +63,12 @@ export function Sellinsurance() {
           </div>
           <Images
             imgclassname={"trustimg mt-5"}
-            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/eko-trust-opt.svg"
+            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/PayPe-trust-opt.svg"
           />
           <Layout1
             layout1h2={`𝗘𝗸𝗼'𝘀 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
-            layout1p1={`You can assure your customers that their money and data is safe. Eko’s trust is unparalleled`}
+            layout1p1={`You can assure your customers that their money and data is safe. PayPe’s trust is unparalleled`}
           />
         </div>
       </div>
@@ -89,7 +89,7 @@ export function Sellinsurance() {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-eko-partner-opt.svg"
+            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
             imgp1={`Ready to get started?`}
             imgh1={`𝗦𝗲𝗹𝗹 𝗜𝗻𝘀𝘂𝗿𝗮𝗻𝗰𝗲 𝗽𝗼𝗹𝗶𝗰𝗶𝗲𝘀 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}

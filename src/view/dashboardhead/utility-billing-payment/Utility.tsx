@@ -27,7 +27,7 @@ export function Utility() {
             layout1h5={`Money Transfer`}
             layout1h2={`𝗜𝗻𝘀𝘁𝗮𝗻𝘁 𝗺𝗼𝗻𝗲𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿, 𝗮𝗻𝘆𝘁𝗶𝗺𝗲 & 𝗮𝗻𝘆𝘄𝗵𝗲𝗿𝗲`}
             line={" span mb-4"}
-            layout1p1={`Eko provides the best DMT (Domestic Money Transfer) solution with the highest success rate with Eko money transfer solution you can turn your shop into a Mini Bank.`}
+            layout1p1={`PayPe provides the best DMT (Domestic Money Transfer) solution with the highest success rate with PayPe money transfer solution you can turn your shop into a Mini Bank.`}
           />
           <div className="benefits">
             <Images
@@ -83,12 +83,12 @@ export function Utility() {
           </div>
           <Images
             imgclassname={"trustimg mt-5"}
-            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/eko-trust-opt.svg"
+            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/PayPe-trust-opt.svg"
           />
           <Layout1
             layout1h2={`𝗘𝗸𝗼'𝘀 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
-            layout1p1={`You can assure your customers that their money and data is safe. Eko’s trust is unparalleled`}
+            layout1p1={`You can assure your customers that their money and data is safe. PayPe’s trust is unparalleled`}
           />
         </div>
       </div>
@@ -109,7 +109,7 @@ export function Utility() {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-eko-partner-opt.svg"
+            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
             imgh1={`𝗣𝗮𝘆 𝗨𝘁𝗶𝗹𝗶𝘁𝘆 𝗕𝗶𝗹𝗹𝘀 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}
             btnclassname={"button mx-1"}

@@ -24,7 +24,7 @@ export function Retailer() {
             layout1h5={`Your own financial platform`}
             layout1h2={`𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗳𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗹 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 𝗮𝘁 𝘆𝗼𝘂𝗿 𝗱𝗼𝗼𝗿𝘀𝘁𝗲𝗽`}
             line={" span mb-4"}
-            layout1p1={`Eko gives you an opportunity to turn your own shop into a Finacial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!`}
+            layout1p1={`PayPe gives you an opportunity to turn your own shop into a Finacial institution. Customers who do not have bank accounts and still want to transfer money using cash can do so at your shop. You can pay their utility bills, provide them insurance and earn in every service you give. Easy and effective!`}
           />
         </div>
         <Secondsildes
@@ -60,7 +60,7 @@ export function Retailer() {
             layout1h5={`Your own financial platform`}
             layout1h2={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗘𝗸𝗼’𝘀 𝗣𝗮𝗿𝘁𝗻𝗲𝗿`}
             line={" span mb-4"}
-            layout1p1={`Eko empowers Retailers, Individuals & Businesses with over 20 ways of making extra money offering our services to their customers`}
+            layout1p1={`PayPe empowers Retailers, Individuals & Businesses with over 20 ways of making extra money offering our services to their customers`}
           />
           <div className="benefits my-5 pt-4">
             <Images
@@ -95,7 +95,7 @@ export function Retailer() {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-eko-partner-opt.svg"
+            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
             imgp1={`Ready to get started?`}
             imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗥𝗲𝘁𝗮𝗶𝗹𝗲𝗿 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}
