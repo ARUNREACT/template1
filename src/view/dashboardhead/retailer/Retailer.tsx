@@ -13,7 +13,7 @@ export function Retailer() {
       <Dashboardhead />
       <div className="col-lg-10 mx-auto p-0 text-center mainpagehead">
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/164bcd1f981cbe1f6f872fefb31c92628f7f64bf/8e3b9/assets/img/retailer/become-retailer.svg"
+          img2={require("../../../asset/sample1/money-transfer.png")}
           imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗼𝘂𝗿 𝗥𝗲𝘁𝗮𝗶𝗹𝗲𝗿 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗲𝗮𝗿𝗻 𝗺𝗼𝗿𝗲`}
           imgp2={`Your one-stop shop for online bill payments! Make them easy and hassle free for your customers using cash.`}
           btnclassname={"button"}
@@ -28,27 +28,27 @@ export function Retailer() {
           />
         </div>
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/a0c7db1d9eeea0bc82123e7cb700950391c27e82/bcf40/assets/img/main/easy-cash-transfer-opt.svg"
+          img2={require("../../../asset/sample1/rocket.png")}
           imgh2={`Easy Cash transfer`}
           imgp2={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/73e35d04ff85e213fde016bbbaae2e246778d5d3/9f0e1/assets/img/retailer/bill-payment-opt.svg"
+          img1={require("../../../asset/sample1/money-transfer.png")}
           imgh1={`Easy Cash transfer`}
           imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/a0c7db1d9eeea0bc82123e7cb700950391c27e82/bcf40/assets/img/main/easy-cash-transfer-opt.svg"
+          img2={require("../../../asset/sample1/rocket.png")}
           imgh2={`Easy Cash transfer`}
           imgp2={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/73e35d04ff85e213fde016bbbaae2e246778d5d3/9f0e1/assets/img/retailer/bill-payment-opt.svg"
+          img1={require("../../../asset/sample1/money-transfer.png")}
           imgh1={`Easy Cash transfer`}
           imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/a0c7db1d9eeea0bc82123e7cb700950391c27e82/bcf40/assets/img/main/easy-cash-transfer-opt.svg"
+          img2={require("../../../asset/sample1/rocket.png")}
           imgh2={`Easy Cash transfer`}
           imgp2={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
@@ -58,21 +58,21 @@ export function Retailer() {
         <div className="col-lg-10 mx-auto mb-3 p-0">
           <Layout1
             layout1h5={`Your own financial platform`}
-            layout1h2={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗘𝗸𝗼’𝘀 𝗣𝗮𝗿𝘁𝗻𝗲𝗿`}
+            layout1h2={`𝗕𝗲𝗰𝗼𝗺𝗲 PayPe’𝘀 𝗣𝗮𝗿𝘁𝗻𝗲𝗿`}
             line={" span mb-4"}
             layout1p1={`PayPe empowers Retailers, Individuals & Businesses with over 20 ways of making extra money offering our services to their customers`}
           />
           <div className="benefits my-5 pt-4">
             <Images
-              img="https://img.freepik.com/premium-vector/light-bulb-with-lightning-symbol-electricity-energy-3d-vector-icon-cartoon-minimal-style_365941-722.jpg?w=826"
+              img={require("../../../asset/sample1/light.png")}
               imgh5={`𝐏𝐫𝐞𝐩𝐚𝐢𝐝 & 𝐏𝐨𝐬𝐭𝐩𝐚𝐢𝐝`}
             />
             <Images
-              img="https://img.freepik.com/premium-vector/light-bulb-with-lightning-symbol-electricity-energy-3d-vector-icon-cartoon-minimal-style_365941-722.jpg?w=826"
+              img={require("../../../asset/sample1/light.png")}
               imgh5={`𝐄𝐥𝐞𝐜𝐭𝐫𝐢𝐜𝐢𝐭𝐲 𝐛𝐢𝐥𝐥 𝐩𝐚𝐲𝐦𝐞𝐧𝐭𝐬`}
             />
             <Images
-              img="https://img.freepik.com/premium-vector/light-bulb-with-lightning-symbol-electricity-energy-3d-vector-icon-cartoon-minimal-style_365941-722.jpg?w=826"
+              img={require("../../../asset/sample1/light.png")}
               imgh5={`𝐏𝐫𝐞𝐩𝐚𝐢𝐝 & 𝐏𝐨𝐬𝐭𝐩𝐚𝐢𝐝 𝐦𝐨𝐛𝐢𝐥𝐞 𝐫𝐞𝐜𝐡𝐚𝐫𝐠𝐞`}
             />
           </div>
@@ -95,7 +95,7 @@ export function Retailer() {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
+            img2={require("../../../asset/sample1/nepal.png")}
             imgp1={`Ready to get started?`}
             imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗥𝗲𝘁𝗮𝗶𝗹𝗲𝗿 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}

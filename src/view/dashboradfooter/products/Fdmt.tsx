@@ -1,40 +1,45 @@
 import {
-  Secondsildes,
-  Layout1,
   Firstsildes,
   Images,
+  Layout1,
+  Secondsildes,
 } from "../../../component/Layout";
+import { Dashboardhead } from "../../dashboardhead/headoption/Dashboardhead";
 import { Dashboardfooter } from "../../dashboradfooter/Dashboardfooter";
-import { Dashboardhead } from "../headoption/Dashboardhead";
 
-export function Nepalmoney(props: any) {
+export function Fdmt(props: any) {
   return (
     <div className=" money-transfer">
       <Dashboardhead />
       <div className="col-lg-10 mx-auto p-0 text-center mainpagehead">
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/3e20f840320f2d26ee2150a099a0fb15929f759a/6b11c/assets/img/indo-nepal/nepal-money-transfer-opt.svg"
-          imgp1={`Indo-Nepal Money Transfer`}
-          imgh2={`𝗧𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗺𝗼𝗻𝗲𝘆 𝗳𝗿𝗼𝗺 𝗜𝗻𝗱𝗶𝗮 𝘁𝗼 𝗡𝗲𝗽𝗮𝗹,𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗵𝗮𝘃𝗶𝗻𝗴 𝗜𝗻𝗱𝗶𝗮𝗻 𝗕𝗮𝗻𝗸 𝗔𝗰𝗰𝗼𝘂𝗻𝘁`}
-          imgp2={`Help your customers (mostly Nepali immigrants) send money from India to Nepal. Fast, secure money transfer whenever you need to.`}
+          img2={require("../../../asset/sample1/money-transfer.png")}
+          imgh1={`𝗘𝗮𝘀𝗶𝗲𝘀𝘁 𝘄𝗮𝘆 𝘁𝗼 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗰𝗮𝘀𝗵 𝘁𝗼 𝗮𝗻𝘆𝗼𝗻𝗲`}
+          imgp2={`A simple and highly secure direct money transfer ability for your customers using cash with industry-leading success rates`}
           btnclassname={"button"}
-          btnvalue={`Tree for free`}
+          btnvalue={`Sign up`}
         />
       </div>
       <div className="text-center col-lg-10 mx-auto my-5">
         <Layout1
-          layout1h5={`Send money to your loved-ones`}
-          layout1h2={`𝗘𝗮𝘀𝘆 𝗺𝗼𝗻𝗲𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗳𝗿𝗼𝗺 𝗜𝗻𝗱𝗶𝗮 𝘁𝗼 𝗡𝗲𝗽𝗮𝗹`}
+          layout1h5={`Money Transfer`}
+          layout1h2={`𝗔𝗣𝗜𝘀 𝗳𝗼𝗿 𝗶𝗻𝘀𝘁𝗮𝗻𝘁 𝗺𝗼𝗻𝗲𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿, 𝗮𝗻𝘆𝘁𝗶𝗺𝗲 & 𝗮𝗻𝘆𝘄𝗵𝗲𝗿𝗲 `}
           line={" span mb-4"}
           layout1p1={`PayPe provides the best DMT (Domestic Money Transfer) solution with the highest success rate with PayPe money transfer solution you can turn your shop into a Mini Bank.`}
         />
+
+        <Firstsildes
+          img1={require("../../../asset/sample1/transaction-assurance.png")}
+          imgh1={`Easy Cash transfer`}
+          imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
+        />
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/c494edc1b6c1b960959ef12964c1de3c37b1979b/69992/assets/img/indo-nepal/indo-nepal.svg"
+          img2={require("../../../asset/sample1/transaction-assurance.png")}
           imgh2={`Easy Cash transfer`}
           imgp2={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/b5e661280ae862ea9d4a68f75c2561c4fe3d4ee6/ca5dd/assets/img/indo-nepal/transaction-receipt.svg"
+          img1={require("../../../asset/sample1/transaction-assurance.png")}
           imgh1={`Easy Cash transfer`}
           imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
@@ -44,10 +49,23 @@ export function Nepalmoney(props: any) {
         <div className="col-lg-10 mx-auto mb-3 p-0">
           <Layout1 layout1h2={`𝗕𝗲𝗻𝗲𝗳𝗶𝘁𝘀`} line={" span mb-4"} />
 
+          <div className="benefits1">
+            <Images
+              img={require("../../../asset/sample1/sample2.png")}
+              imgh5={"𝐈𝐧𝐬𝐭𝐚𝐧𝐭 𝐫𝐞𝐭𝐚𝐢𝐥𝐞𝐫 𝐨𝐧𝐛𝐨𝐚𝐫𝐝𝐢𝐧𝐠"}
+              imgp1={`Our API is well-documented and easy to understand. Integrating is as easy as it can get. We provide 24x7 manual integration support just in case, leaving no stone unturned to make the integration process seamless.`}
+            />
+            <Images
+              img={require("../../../asset/sample1/sample2.png")}
+              imgh5={"𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐲-𝐥𝐞𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬 𝐫𝐚𝐭𝐞𝐬"}
+              imgp1={`The documentation for our APIs is comprehensive and comprehensible! We constantly update it to explain the minutest detail. Whether you use Python, Java, PHP, or C#, we have you covered!`}
+            />
+          </div>
+
           <div className="my-5 text-center col d-flex justify-content-center">
             <Images
               imgclassname={"img-fluid"}
-              img="https://d33wubrfki0l68.cloudfront.net/e3ca573633b4a50115caea73335905fb90d8c5be/03ce8/assets/img/indo-nepal/no-indian-bank.svg"
+              img={require("../../../asset/sample1/mini-bank.png")}
               imgh5={"𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐲-𝐥𝐞𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬 𝐫𝐚𝐭𝐞𝐬"}
               imgp1={`The documentation for our APIs is comprehensive and comprehensible! We constantly update it to explain the minutest detail. Whether you use Python, Java, PHP, or C#, we have you covered!`}
             />
@@ -55,22 +73,22 @@ export function Nepalmoney(props: any) {
 
           <div className="benefits1">
             <Images
-              img="https://d33wubrfki0l68.cloudfront.net/72e83b1f92fe90c3d26254e092eaa0eb7045fd1d/d813a/assets/img/main/best-success-rate-opt.svg"
+              img={require("../../../asset/sample1/sample2.png")}
               imgh5={"𝐈𝐧𝐬𝐭𝐚𝐧𝐭 𝐫𝐞𝐭𝐚𝐢𝐥𝐞𝐫 𝐨𝐧𝐛𝐨𝐚𝐫𝐝𝐢𝐧𝐠"}
               imgp1={`Our API is well-documented and easy to understand. Integrating is as easy as it can get. We provide 24x7 manual integration support just in case, leaving no stone unturned to make the integration process seamless.`}
             />
             <Images
-              img="https://d33wubrfki0l68.cloudfront.net/72e83b1f92fe90c3d26254e092eaa0eb7045fd1d/d813a/assets/img/main/best-success-rate-opt.svg"
+              img={require("../../../asset/sample1/sample2.png")}
               imgh5={"𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐲-𝐥𝐞𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬 𝐫𝐚𝐭𝐞𝐬"}
               imgp1={`The documentation for our APIs is comprehensive and comprehensible! We constantly update it to explain the minutest detail. Whether you use Python, Java, PHP, or C#, we have you covered!`}
             />
           </div>
           <Images
             imgclassname={"trustimg mt-5"}
-            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/PayPe-trust-opt.svg"
+            img={require("../../../asset/sample1/shield.png")}
           />
           <Layout1
-            layout1h2={`𝗛𝗼𝘄 𝗜𝗻𝗱𝗼-𝗡𝗲𝗽𝗮𝗹 𝗠𝗼𝗻𝗲𝘆 𝗧𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗪𝗼𝗿𝗸𝘀`}
+            layout1h2={`PayPe 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
             layout1p1={`You can assure your customers that their money and data is safe. PayPe’s trust is unparalleled`}
           />
@@ -78,7 +96,7 @@ export function Nepalmoney(props: any) {
       </div>
 
       <div className="getting-started py-5 text-center">
-        <Layout1 layout1h2={`𝗚𝗲𝘁𝘁𝗶𝗻𝗴 𝗦𝘁𝗮𝗿𝘁𝗲𝗱`} line={" span mb-2"} />
+        <Layout1 layout1h2={`𝗚𝗲𝘁𝘁𝗶𝗻𝗴 𝗦𝘁𝗮𝗿𝘁𝗲𝗱`} line={"span mb-2"} />
         <div className="getting-child text-start mt-5">
           <Layout1 layout1h5={`𝗦𝘁𝗲𝗽 𝟭 :`} layout1p1={`Sign Up on Connect`} />
           <Layout1
@@ -90,12 +108,13 @@ export function Nepalmoney(props: any) {
         </div>
       </div>
 
+      <div></div>
+
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
-            imgh4={`Ready to get started?`}
-            imgh1={`Send money to Nepal & Earn More`}
+            img2={require("../../../asset/sample1/partner.png")}
+            imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 PayPe 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}
             btnclassname={"button mx-1"}
             btnvalue={`Get Started`}

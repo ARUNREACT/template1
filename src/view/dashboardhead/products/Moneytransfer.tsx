@@ -13,7 +13,7 @@ export function Moneytransfer(props: any) {
       <Dashboardhead />
       <div className="col-lg-10 mx-auto p-0 text-center mainpagehead">
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/e6c1f8bcd707a56469a91a7b872f62a50635a727/33b79/assets/img/money-transfer/money-transfer.svg"
+          img2={require("../../../asset/sample1/money-transfer.png")}
           imgh1={`𝗘𝗮𝘀𝗶𝗲𝘀𝘁 𝘄𝗮𝘆 𝘁𝗼 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝗰𝗮𝘀𝗵 𝘁𝗼 𝗮𝗻𝘆𝗼𝗻𝗲`}
           imgp2={`A simple and highly secure direct money transfer ability for your customers using cash with industry-leading success rates`}
           btnclassname={"button"}
@@ -29,17 +29,17 @@ export function Moneytransfer(props: any) {
         />
 
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/15a06b29942279de7362339608e9f76ab0347614/713b2/assets/img/money-transfer/transaction-assurance.svg"
+          img1={require("../../../asset/sample1/transaction-assurance.png")}
           imgh1={`Easy Cash transfer`}
           imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Secondsildes
-          img2="https://d33wubrfki0l68.cloudfront.net/15a06b29942279de7362339608e9f76ab0347614/713b2/assets/img/money-transfer/transaction-assurance.svg"
+          img2={require("../../../asset/sample1/transaction-assurance.png")}
           imgh2={`Easy Cash transfer`}
           imgp2={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/15a06b29942279de7362339608e9f76ab0347614/713b2/assets/img/money-transfer/transaction-assurance.svg"
+          img1={require("../../../asset/sample1/transaction-assurance.png")}
           imgh1={`Easy Cash transfer`}
           imgp1={`Customers can transfer cash to anyone by specifying their bank details right at your doorstep`}
         />
@@ -65,7 +65,7 @@ export function Moneytransfer(props: any) {
           <div className="my-5 text-center col d-flex justify-content-center">
             <Images
               imgclassname={"img-fluid"}
-              img="https://d33wubrfki0l68.cloudfront.net/7356535fe2639e53239f98fcf77bf1e9392cabc7/2c9c6/assets/img/money-transfer/mini-bank.svg"
+              img={require("../../../asset/sample1/mini-bank.png")}
               imgh5={"𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐲-𝐥𝐞𝐚𝐝𝐢𝐧𝐠 𝐬𝐮𝐜𝐜𝐞𝐬𝐬 𝐫𝐚𝐭𝐞𝐬"}
               imgp1={`The documentation for our APIs is comprehensive and comprehensible! We constantly update it to explain the minutest detail. Whether you use Python, Java, PHP, or C#, we have you covered!`}
             />
@@ -85,10 +85,10 @@ export function Moneytransfer(props: any) {
           </div>
           <Images
             imgclassname={"trustimg mt-5"}
-            img="https://d33wubrfki0l68.cloudfront.net/5aeae0cb91470535fc278118d89e6115b8250d56/a24d2/assets/img/PayPe-trust-opt.svg"
+            img={require("../../../asset/sample1/shield.png")}
           />
           <Layout1
-            layout1h2={`𝗘𝗸𝗼'𝘀 𝗧𝗿𝘂𝘀𝘁`}
+            layout1h2={`PayPe 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
             layout1p1={`You can assure your customers that their money and data is safe. PayPe’s trust is unparalleled`}
           />
@@ -113,8 +113,8 @@ export function Moneytransfer(props: any) {
       <div className="main-benefits py-4">
         <div className="col-lg-10 mx-auto">
           <Secondsildes
-            img2="https://d33wubrfki0l68.cloudfront.net/72608054363cc13272fcea23385cb29c85a252ff/3103b/assets/img/become-PayPe-partner-opt.svg"
-            imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 𝗘𝗸𝗼 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
+            img2={require("../../../asset/sample1/partner.png")}
+            imgh1={`𝗕𝗲𝗰𝗼𝗺𝗲 PayPe 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 & 𝗘𝗮𝗿𝗻 𝗠𝗼𝗿𝗲`}
             line={"span mb-3 mx-1"}
             btnclassname={"button mx-1"}
             btnvalue={`Get Started`}

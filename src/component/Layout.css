@@ -14,9 +14,9 @@
 .button {
   outline: none;
   border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  background-color: rgb(91, 230, 255);
+  border-radius: 120px;
+  padding: 6px 18px;
+  background-color: #81e8fb;
   /* min-width: 170px; */
   font-size: 1.05rem;
   font-weight: 500;
@@ -28,13 +28,12 @@
 .button:hover {
   cursor: pointer;
   transition: all 0.5s;
-  top: -10px;
-  /* padding-top: -30px; */
-  /* margin-top: -10px; */
-  /* transform: scale(1.1) !important; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: rgb(21, 183, 183);
+  color: white;
 }
+
 .point {
   background-color: rgb(91, 230, 255);
   /* padding: 0px 15px; */

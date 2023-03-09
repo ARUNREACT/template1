@@ -2,11 +2,9 @@ import "../component/Layout.css";
 
 export function Button(props: any) {
   return (
-    // <div className={props.btnclassname}>
     <button data-aos="slide-up" className={props.btnclassname}>
       {props.btnvalue}
     </button>
-    // </div>
   );
 }
 

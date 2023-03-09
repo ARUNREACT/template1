@@ -36,12 +36,24 @@ export function Dashboardfooter() {
               footheadclassname={"foothead my-4 pt-3 "}
               footerhead={"DEVELOPER PRODUCTS"}
             />
-            <Footeroption href={"/"} footeroption={"DMT API"} />
-            <Footeroption href={"/"} footeroption={"AePS Cashout SDK"} />
-            <Footeroption href={"/"} footeroption={"Fund Settlement API"} />
-            <Footeroption href={"/"} footeroption={"Cash Collection API"} />
-            <Footeroption href={"/"} footeroption={"Account Verification"} />
-            <Footeroption href={"/"} footeroption={"PAN Verification API"} />
+            <Footeroption href={"/Fdmt"} footeroption={"DMT API"} />
+            <Footeroption href={"/Faeps"} footeroption={"AePS Cashout SDK"} />
+            <Footeroption
+              href={"/Ffund"}
+              footeroption={"Fund Settlement API"}
+            />
+            <Footeroption
+              href={"/Fcash"}
+              footeroption={"Cash Collection API"}
+            />
+            <Footeroption
+              href={"/Faccount"}
+              footeroption={"Account Verification"}
+            />
+            <Footeroption
+              href={"/Fpan"}
+              footeroption={"PAN Verification API"}
+            />
           </div>
 
           <div className="foot1 col-11 col-sm-4 col-md-3 col-lg-2">
@@ -49,10 +61,13 @@ export function Dashboardfooter() {
               footheadclassname={"foothead my-4 pt-3 "}
               footerhead={"COMPANY"}
             />
-            <Footeroption href={"/"} footeroption={"About Us"} />
-            <Footeroption href={"/"} footeroption={"Privacy Policy"} />
-            <Footeroption href={"/"} footeroption={"Terms & Conditions"} />
-            <Footeroption href={"/"} footeroption={"Grievance"} />
+            <Footeroption href={"/aboutus"} footeroption={"About Us"} />
+            <Footeroption href={"/aboutus"} footeroption={"Privacy Policy"} />
+            <Footeroption
+              href={"/aboutus"}
+              footeroption={"Terms & Conditions"}
+            />
+            <Footeroption href={"/aboutus"} footeroption={"Grievance"} />
           </div>
 
           <div className="text-center col-12 col-sm-6 col-md-4 col-lg-3 foot1">
@@ -91,17 +106,6 @@ export function Dashboardfooter() {
             </div>
           </div>
         </div>
-
-        {/* <div className="col-lg-11 col-12 mt-3 px-lg-5 footerdetails">
-        <h6>© 2022 PayPe Technologies Private Limited.</h6>
-        <p>
-          PayPe is not a bank but a technology platform for digital financial
-          services and advisory in partnership with RBI licensed Banks, SEBI
-          licensed AMCS and IRDAI licensed Insurers. All funds in the bank
-          account are insured as per limits under the RBI's deposit Insurance
-          scheme.
-        </p>
-      </div> */}
       </div>
     </div>
   );

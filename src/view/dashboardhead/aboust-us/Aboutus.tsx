@@ -3,9 +3,9 @@ import { Dashboardhead } from "../headoption/Dashboardhead";
 
 export function Aboutus() {
   return (
-    <div className="about-us">
+    <div className="">
       <Dashboardhead />
-      <div className="col-lg-10 mx-auto mainpagehead">
+      <div className="col-lg-10 mx-auto mainpagehead about-us">
         <h1 className="pt-4">𝗔𝗕𝗢𝗨𝗧 𝗨𝗦</h1>
         <hr />
 

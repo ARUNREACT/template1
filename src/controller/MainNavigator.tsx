@@ -1,17 +1,24 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Dashboard } from "../view/dashboard/Dashboard";
-import { Aadhaar } from "../view/dashboardhead/aadhaar-banking/Aadhaar";
+import { Aadhaar } from "../view/dashboardhead/products/Aadhaar";
 import { Aboutus } from "../view/dashboardhead/aboust-us/Aboutus";
 import { Dashboardhead } from "../view/dashboardhead/headoption/Dashboardhead";
-import { Lending } from "../view/dashboardhead/lending/Lending";
-import { Moneytransfer } from "../view/dashboardhead/money-transfer/Moneytransfer";
-import { Nepalmoney } from "../view/dashboardhead/nepal/Nepalmoney";
+import { Lending } from "../view/dashboardhead/products/Lending";
+import { Moneytransfer } from "../view/dashboardhead/products/Moneytransfer";
+import { Nepalmoney } from "../view/dashboardhead/products/Nepalmoney";
 import { Platform } from "../view/dashboardhead/platform/Platform";
 import { Retailer } from "../view/dashboardhead/retailer/Retailer";
-import { Sellinsurance } from "../view/dashboardhead/sell-insurance/Sellinsurance";
-import { Utility } from "../view/dashboardhead/utility-billing-payment/Utility";
+import { Sellinsurance } from "../view/dashboardhead/products/Sellinsurance";
+import { Utility } from "../view/dashboardhead/products/Utility";
 import { Dashboardfooter } from "../view/dashboradfooter/Dashboardfooter";
+import { Login } from "../view/dashboardhead/login/Login";
+import { Fdmt } from "../view/dashboradfooter/products/Fdmt";
+import { Faeps } from "../view/dashboradfooter/products/Faeps";
+import { Ffund } from "../view/dashboradfooter/products/Ffund";
+import { Fcash } from "../view/dashboradfooter/products/Fcash";
+import { Fpan } from "../view/dashboradfooter/products/Fpan";
+import { Faccount } from "../view/dashboradfooter/products/Faccount";
 
 function MainNavigator() {
   return (
@@ -28,8 +35,16 @@ function MainNavigator() {
         <Route path="/retailer" element={<Retailer />} />
         <Route path="/platform" element={<Platform />} />
         <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/aboutus" element={<Aboutus />} />
+        <Route path="/login" element={<Login />} />
 
         <Route path="/dashboardfooter" element={<Dashboardfooter />} />
+        <Route path="/fdmt" element={<Fdmt />} />
+        <Route path="/faeps" element={<Faeps />} />
+        <Route path="/ffund" element={<Ffund />} />
+        <Route path="/fcash" element={<Fcash />} />
+        <Route path="/fpan" element={<Fpan />} />
+        <Route path="/faccount" element={<Faccount />} />
       </Routes>
     </div>
   );

@@ -12,7 +12,6 @@ import { Dashboardhead } from "../dashboardhead/headoption/Dashboardhead";
 
 export function Dashboard() {
   return (
-    // <div className='vh-100'>
     <div className="bg-white">
       <Dashboardhead />
       <div className="col-lg-10 p-0 mx-auto text-center">
@@ -23,7 +22,7 @@ export function Dashboard() {
           <Button btnclassname={"button"} btnvalue={`Try For Free`} />
           <Images
             imgclassname={"img-fluid"}
-            img={require("../../asset/sample1/mainsample.jpg")}
+            img={require("../../asset/sample1/mainsample.png")}
           />
         </div>
 
@@ -142,7 +141,7 @@ export function Dashboard() {
             img={require("../../asset/sample1/sample1.png")}
           />
           <Layout1
-            layout1h2={`𝗘𝗸𝗼'𝘀 𝗧𝗿𝘂𝘀𝘁`}
+            layout1h2={`PayPe 𝗧𝗿𝘂𝘀𝘁`}
             line={"span mb-4"}
             layout1p1={`We use the same APIs here at PayPe! Every API call is secured with one-time-use tokens generated using asymmetric cryptography. Our open-source libraries make it extremely easy & error-proof`}
           />
@@ -160,12 +159,9 @@ export function Dashboard() {
           btnclassname={"button mt-4 text-start"}
           btnvalue={`Contact Sale`}
         />
-        {/* <div className="col-md-5 col-lg-4 col-sm-5 col-8 bg-danger">
-          <Point point1p={"Join over 1,50,000 retailers"} />
-        </div> */}
 
         <Firstsildes
-          img1="https://d33wubrfki0l68.cloudfront.net/c34496eb3511fa6e5d7e83b32ce30b23fd104104/84610/assets/img/aadhaar-banking/aeps_hero.svg"
+          img1={require("../../asset/sample1/retailer.png")}
           imgh3={`Retailer`}
           imgp1={`Our retailer partners use PayPe's proprietary platform '𝗖𝗼𝗻𝗻𝗲𝗰𝘁' and partner services to offer cash based and assisted commerce services. This provides a great earning potential and the freedom of running their own business with minimal investment.`}
           btnclassname={"button"}
