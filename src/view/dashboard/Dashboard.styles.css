@@ -12,6 +12,7 @@
 .mobile {
   background-color: rgb(215, 249, 255);
 }
+
 .benefits {
   grid-gap: 20px;
   display: flex;
@@ -25,7 +26,7 @@
   width: 120px;
   border-radius: 50%;
   padding: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 .utility .benefits {
   grid-gap: 10px;
@@ -107,7 +108,7 @@
 
 .carousel {
   border: 1px solid black;
-  background-color: rgb(215, 249, 255);
+  background-color: #d7f9ff;
 }
 
 .carousel img {
@@ -121,7 +122,7 @@
   outline: black;
   border: 1px solid black;
   padding: 20px;
-  background-color: rgb(129, 42, 7);
+  background-color: #812a07;
   background-size: 100%, 100%;
   border-radius: 50%;
   color: black;
@@ -154,9 +155,9 @@
   height: 150px;
   padding: 20px;
   font-size: 18px;
-  background-color: rgb(225, 250, 255);
-  border: 1px solid rgb(6, 156, 255);
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  background-color: #e1faff;
+  border: 1px solid #069cff;
+  box-shadow: #00000017 0px 3px 12px;
 }
 .getting-child .layout1:hover {
   transition: 0.7s !important;
