@@ -30,7 +30,7 @@
 .footer-icon li a::before {
   font-family: "FontAwesome";
   position: absolute;
-  top: -6px;
+  top: -7.5px;
   left: 0px;
   font-size: 1.8em;
   height: 0;
