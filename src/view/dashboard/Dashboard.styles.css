@@ -288,6 +288,7 @@ input[type="number"] {
   outline: none;
   border: none;
   font-size: 18px;
+  color: white;
 }
 .input-field::placeholder {
   color: white;
